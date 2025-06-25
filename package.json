@@ -1,0 +1,25 @@
+{
+  "devDependencies": {
+    "cypress": "^14.5.0"
+  },
+  "dependencies": {
+    "cypress-real-events": "^1.14.0"
+  },
+  "name": "digitaltechnologiesstudiorainbow",
+  "version": "1.0.0",
+  "description": "test work",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slavaroskoshnyy/DigitalTechnologiesStudioRainbow.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slavaroskoshnyy/DigitalTechnologiesStudioRainbow/issues"
+  },
+  "homepage": "https://github.com/slavaroskoshnyy/DigitalTechnologiesStudioRainbow#readme"
+}
