@@ -30,8 +30,6 @@ describe("Login in system", () => {
       .should("have.text", loginData.errorMessage);
   });
 
-  //! Этот тест провалиться т.к. "Забыли пароль" реализованно не ссылкой
-
   it("There is a password recovery link on the page", () => {
     loginPage.getButtonResetPassword().then((el) => {
       expect(el.prop("tagName")).to.equal("A");
